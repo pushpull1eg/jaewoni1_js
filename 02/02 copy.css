@@ -1,0 +1,89 @@
+/* 전체요소 선택 */
+* {
+    margin:0px;
+    padding:0px;
+}
+
+
+
+
+h1{
+    background-color: lightblue;
+    color: blue;
+
+}
+
+h2 { 
+    color: blue;
+}
+
+.c2 {
+    background-color: lightgrey;
+}
+#d2 >h2 {   
+    color: green;
+
+}
+img [alt = html] , img[alt = javascript] 
+{
+    width : 100px;
+    height: 100px;
+    
+}
+
+a {text-decoration: none;
+color:black;
+display: inline -flex;
+padding: 5px;
+
+
+}
+
+
+a:hover {
+    color: blue;
+    background-color: green;
+
+}
+
+header li { list-style: none;
+    margin: 5px;
+
+}
+
+
+/* 
+박스모델 */
+article{
+    border: 0.1px dashed blue;
+    margin: 10px 20px 30px 40px;
+    padding: 20px 40px;
+
+}
+
+header{ 
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: start;
+    height: 200px;
+}
+div,ul{
+    border: 5px solid green;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+}
+
+/* 미디어쿼리 */
+@media screen and (min-width:1024px) 
+
+{body{ background-color: green;
+}
+header{ background-color: chartreuse;} 
+  
+}
+
+/* flex-direction: cloumn; */
+
+
